@@ -1,0 +1,466 @@
+/* Colours */
+:root {
+    /* Colours */
+    --main-primary: #e79a7d;
+    --main-primary-light: #eeae97;
+    --main-tertiary: #bc6b34;
+    --main-secondary: #8BC2A1;
+    --main-light: #fdf7f7;
+    --main-dark: #333;
+    --main-mid: #a9a9a9;
+
+    /* Hovers */
+    --primary-hover: #7DE7CF;
+
+    /* Borders */
+    --standard-border: 2px;
+
+    /* Transitions */
+    --standard-transition: .2s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
+/* Utility */
+.bg-tertiary {
+    background-color: var(--main-tertiary);
+}
+
+.bg-main {
+    background-color: var(--main-primary);
+}
+
+.bg-main-light {
+    background-color: var(--main-primary-light);
+}
+
+.bg-second {
+    background-color: var(--main-second);
+}
+
+.bg-light {
+    background-color: var(--main-light);
+}
+
+.bg-dark {
+    background-color: var(--main-dark) !important;
+}
+
+.bg-mid {
+    background-color: var(--main-mid);
+}
+
+.btn-tertiary {
+    background-color: var(--main-tertiary);
+}
+
+.btn-main {
+    background-color: var(--main-primary);
+    color: var(--main-light);
+}
+
+.btn-main:hover {
+    background-color: var(--primary-hover);
+    color: var(--main-dark);
+}
+
+.btn-second {
+    background-color: var(--main-second);
+}
+
+.text-tertiary {
+    color: var(--main-tertiary);
+}
+
+.text-main {
+    color: var(--main-primary);
+}
+
+.text-secondary {
+    color: var(--main-secondary);
+}
+
+.text-light-custom {
+    color: var(--main-light) !important;
+}
+
+.border-tertiary {
+    border-color: var(--main-tertiary) !important;
+}
+
+.border-main {
+    border-color: var(--main-primary) !important;
+}
+
+.border-second {
+    border-color: var(--main-secondary) !important;
+}
+
+.border-mid {
+    border-color: var(--main-mid) !important;
+}
+
+/* ==================== spacers ==================== */
+.whole-screen-spacer {
+    height: 90vh;
+    width: 100%;
+}
+
+.hr-tertiary {
+    height: 2px;
+    background-color: var(--main-primary);
+    color: var(--main-second);
+}
+
+.section-spacer {
+    height: 5vh;
+}
+
+/* Widths */
+.w-5 {
+    width: 5%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-17-5 {
+    width: 17.5%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-27 {
+    width: 27%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-49 {
+    width: 49%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-85 {
+    width: 88.5%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-97 {
+    width: 97%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+
+/* Heights */
+.h-5 {
+    height: 5vh;
+}
+
+.h-10 {
+    height: 10vh;
+}
+
+.h-15 {
+    height: 15vh;
+}
+
+.h-20 {
+    height: 20vh;
+}
+
+.h-30 {
+    height: 30vh;
+}
+
+.h-40 {
+    height: 40vh;
+}
+
+.h-45 {
+    height: 45vh;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.h-60 {
+    height: 60vh;
+}
+
+.h-70 {
+    height: 70vh;
+}
+
+.h-80 {
+    height: 80vh;
+}
+
+.h-85 {
+    height: 80vh;
+}
+
+.h-90 {
+    height: 90vh;
+}
+
+.h-100 {
+    height: 100vh;
+}
+
+.h-auto {
+    height: auto
+}
+
+/* Top alignement */
+.top-2-5 {
+    top: 2.5%;
+}
+
+.top-5 {
+    top: 5%;
+}
+
+.top-7-5 {
+    top: 7.5%;
+}
+
+.top-10 {
+    top: 10%;
+}
+
+.top-20 {
+    top: 20%;
+}
+
+.top-30 {
+    top: 30%;
+}
+
+.top-40 {
+    top: 40%;
+}
+
+.top-50 {
+    top: 50%;
+}
+
+.top-60 {
+    top: 60%;
+}
+
+.top-70 {
+    top: 70%;
+}
+
+.top-80 {
+    top: 80%;
+}
+
+.top-90 {
+    top: 90%;
+}
+
+.top-100 {
+    top: 100%;
+}
+
+
+/* Shadow */
+.shadow {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-orange {
+    box-shadow: 5px 5px 5px rgba(188, 107, 52, 0.4);
+}
+
+.text-shadow-orange {
+    text-shadow: 2px 2px 3px #bc6b34;
+}
+
+/* ==================== logo ==================== */
+/* logo spacer */
+.logo-spacer {
+    width: 50%;
+    transform: rotate(-20deg);
+    opacity: 0.5;
+}
+
+
+/* ==================== Hovers ==================== */
+.hover-secondary:hover {
+    transition: var(--standard-transition);
+    color: var(--primary-hover) !important;
+}
+
+.hover-tertiary:hover {
+    transition: var(--standard-transition);
+    color: var(--main-tertiary) !important;
+}
+
+.hover-primary:hover {
+    transition: var(--standard-transition);
+    color: var(--main-primary) !important;
+}
+
+/* ==================== Images ==================== */
+img {
+    object-fit: contain;
+}
+
+.img-custom {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ====================== Mobile relative stuff ====================== */
+.mobile-hr {
+    display: none;
+}
+
+
+/* Text */
+.text-bigger {
+    font-size: 1.5rem;
+}
+
+/* ====================== Button ====================== */
+.custom-btn {
+    background-color: var(--main-secondary);
+    color: var(--main-light);
+    min-width: 10rem;
+    border: none;
+
+}
+
+.custom-btn-no-colour {
+
+    min-width: 10rem;
+    border: none;
+
+}
+
+.custom-btn:disabled {
+    background-color: var(--main-dark);
+    color: var(--main-light);
+    min-width: 10rem;
+    border: none;
+
+}
+
+.custom-btn-any-width {
+    background-color: var(--main-secondary);
+    color: var(--main-light);
+    border: none;
+
+}
+
+.custom-btn:visited,
+.custom-btn-any-width:visited {
+    background-color: var(--main-secondary);
+    color: var(--main-light);
+    min-width: 10rem;
+    border: none;
+
+}
+
+.custom-btn:focus,
+.custom-btn-any-width:focus {
+    background-color: var(--main-secondary);
+    color: var(--main-light);
+    min-width: 10rem;
+    border: none;
+
+}
+
+.custom-btn:hover,
+.custom-btn-any-width:hover {
+    background-color: var(--primary-hover);
+    color: var(--main-light);
+    border: none;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.img-desktop {
+    display: block;
+}
+
+/* Compensate for small height components */
+.big-height {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .img-mobile {
+        display: block;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+}

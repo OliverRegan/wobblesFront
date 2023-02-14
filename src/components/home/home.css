@@ -1,0 +1,71 @@
+/* Import variables */
+@import "../../assets/css/variables.css";
+@import "../../assets/css/utility.css";
+
+/* ====================== Showcase stuff ====================== */
+#showcase {
+    bottom: 0;
+    height: 69vh;
+    background-size: cover;
+    background-position: center top;
+    background-color: var(--main-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../assets/img/branding/Banner/Learn_To_Roller_Skate_Brisbane.png");
+}
+
+
+
+.showcase-text {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(231, 154, 125, 0.7);
+    border-top: var(--main-light) 5px solid;
+    border-bottom: var(--main-light) 5px solid;
+}
+
+#showcase h1 {
+    font-size: 5rem;
+}
+
+
+#showcase h1,
+#showcase h2 {
+    color: var(--main-light);
+    text-shadow: 2px 2px 3px #bc6b34;
+}
+
+@media only screen and (max-width: 930px) {
+    #showcase {
+        background-image: url("../../assets/img/branding/Other/Group_Orange.jpg");
+        background-position: 0 -5rem;
+        justify-content: end;
+    }
+    
+    #showcase .container {
+        margin-top: 2rem;
+    }
+    
+    #showcase h1 {
+        font-size: 3rem;
+    }
+    .mobile-hr {
+        display: block;
+    }
+    
+    .mobile-show {
+        display: block;
+    }
+    
+    .mobile-hide {
+        display: none;
+    }
+    #showcase h1{
+        font-size: 1.4rem;
+    }
+    #showcase h2{
+        font-size: 1rem;
+    }
+}

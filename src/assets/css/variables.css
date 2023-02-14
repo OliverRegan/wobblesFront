@@ -1,0 +1,21 @@
+/*==================== Variables ====================*/
+:root {
+    /* Colours */
+    --main-primary: #e79a7d;
+    --main-primary-light: #eeae97;
+    --main-tertiary: #bc6b34;
+    --main-secondary: #8BC2A1;
+    --main-light: #fdf7f7;
+    --main-dark: #333;
+    --main-mid: #a9a9a9;
+
+    /* Hovers */
+    --primary-hover: #7DE7CF;
+
+    /* Borders */
+    --standard-border: 2px;
+
+    /* Transitions */
+    --standard-transition: .2s ease-in-out;
+    --fast-transition: .05s ease-in-out;
+}

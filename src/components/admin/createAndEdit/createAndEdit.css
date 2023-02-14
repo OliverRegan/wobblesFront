@@ -1,0 +1,13 @@
+@import '../../../assets/css/variables.css';
+
+.custom-file-upload {
+
+    background-color: var(--main-primary);
+    color: var(--main-light);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.custom-file-upload:hover {
+    background-color: var(--main-dark);
+}

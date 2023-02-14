@@ -1,0 +1,210 @@
+/* Utility */
+.mobile-hr {
+    display: block;
+}
+
+.mobile-show {
+    display: block;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+/* Showcase */
+
+
+/* Lessons */
+
+
+/* Nav stuff */
+#mobile-brand {
+    display: inline-block;
+    height: 100%;
+    margin: auto 0;
+}
+
+#top-brand {
+    width: 320px;
+    height: 135px;
+}
+
+.desktop-logo {
+    display: none;
+}
+
+.mobile-logo {
+    display: block;
+}
+
+#brand-bar {
+    height: auto;
+    width: 100%;
+}
+
+#main-nav {
+    display: none;
+}
+
+#logo-main {
+    display: block;
+}
+
+#socials {
+    width: 100%;
+}
+
+/* footer stuff */
+.socials {
+    width: 85%;
+}
+
+/* Card content stuff */
+.card-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title-wrapper h3,
+.card-title-wrapper h4 {
+    text-align: center;
+}
+
+.photo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Meet the team */
+
+
+
+/* Lessons */
+#lesson-group-card-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+
+}
+
+.lesson-card {
+    max-width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4)
+}
+
+/* Animations for lesson cards */
+.lesson-card:not(:first-child) {
+    margin-left: auto;
+}
+
+.lesson-card:hover {
+    transform: none;
+}
+
+.lesson-card:hover~.lesson-card {
+    transform: none;
+}
+
+
+/* Age groups */
+
+#age-group-card-holder {
+    flex-direction: column;
+}
+
+#age-group-card-holder>div:not(:last-child) {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Skatepark */
+#skatepark-img {
+    display: flex;
+    flex-direction: column;
+}
+
+/* reviews */
+
+#reviews {
+    flex-direction: column;
+}
+
+/* Safety */
+#safety-container {
+    flex-direction: column;
+}
+
+#safety-content {
+    width: 100%;
+}
+
+#safety-waver {
+    width: 100%;
+}
+
+#safety-img {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#safety-img img {
+    width: 80%;
+}
+
+
+
+
+/* gallery */
+#gallery-card-holder {
+    flex-direction: column;
+}
+
+.gallery-card {
+    margin: 1rem 0rem;
+    width: 100%;
+}
+
+.gallery-video {
+    width: 60%;
+    height: auto;
+    margin: 1rem 0rem;
+}
+
+/* Lessons */
+#lesson-group-card-holder {
+    display: flex;
+    height: auto;
+}
+
+.lesson-card-container {
+    width: 100%;
+    height: auto;
+}
+
+.lesson-card {
+    height: auto;
+}
+
+
+#contact-email {
+    font-size: 1rem;
+}
+
+/* Triple images */
+.triple-img {
+    flex-direction: column;
+}
+
+/* Card titles */
+.card-title-custom {
+    font-size: 2rem;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
+}

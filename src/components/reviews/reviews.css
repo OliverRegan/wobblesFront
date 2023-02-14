@@ -1,0 +1,12 @@
+/* Import variables */
+@import '../../assets/css/variables.css';
+@import '../../assets/css/variables.css';
+
+.choose-stars {
+    cursor: pointer;
+    color: var(--main-primary);
+}
+
+.choose-stars:hover {
+    color: var(--main-primary-light);
+}

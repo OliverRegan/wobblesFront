@@ -1,0 +1,29 @@
+/* Import variables */
+@import "../../assets/css/variables.css";
+@import "../../assets/css/utility.css";
+
+.card-title-custom {
+    font-weight: lighter;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.intro-text {
+    font-size: 1.6rem;
+}
+
+.safety-image {
+    max-width: 30rem;
+}
+
+.hr-tertiary {
+    height: 2px;
+    background-color: var(--main-primary);
+    color: var(--main-tertiary);
+}
+
+@media only screen and (max-width: 930px) {
+    .card-title-custom {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,55 @@
+/* Import variables */
+@import '../../assets/css/variables.css';
+
+.post-card-custom {
+    width: 20%;
+}
+
+.hr-tertiary {
+    height: 2px;
+    background-color: var(--main-primary);
+    color: var(--main-tertiary);
+}
+
+/* .gallery-image {
+    display: block;
+    max-width: 20rem;
+    max-height: 30rem;
+    width: auto;
+    height: auto;
+} */
+
+.gallery-image-gradient {
+    height: 2rem;
+    margin-top: -2rem;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #4C4E52 100%);
+    z-index: 10;
+}
+
+.gallery-body {
+    background-color: #4C4E52;
+}
+
+
+#meet-the-team-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
+}
+
+@media only screen and (max-width: 960px) {
+    #meet-the-team-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-card-custom {
+        width: 100%;
+    }
+}

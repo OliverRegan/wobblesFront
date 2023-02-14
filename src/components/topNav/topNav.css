@@ -1,0 +1,50 @@
+/* Import variables */
+@import "../../assets/css/variables.css";
+@import "../../assets/css/utility.css";
+
+/* Background */
+#header-and-showcase-container {
+    background-color: var(--main-primary-light);
+}
+
+
+/* Central Logo */
+.desktop-logo {
+    width: 100%;
+    max-width: 15rem;
+}
+
+
+
+/* Nav */
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-item {
+    display: inline;
+    flex: 1;
+    text-align: center;
+
+}
+
+.nav-list-item:hover {
+    cursor: pointer;
+}
+
+
+.nav-link-custom {
+    cursor: default;
+    transition: var(--standard-transition);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: var(--main-light) !important;
+    text-decoration: none;
+}
+
+.nav-link-custom:hover {
+    cursor: pointer;
+    text-decoration: none;
+}

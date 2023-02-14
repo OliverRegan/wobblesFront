@@ -1,0 +1,280 @@
+/*==================== Colours ====================*/
+:root {
+    /* Colours */
+    --main-primary: #e79a7d;
+    --main-primary-light: #333;
+    --main-tertiary: #bc6b34;
+    --main-secondary: #8BC2A1;
+    --main-light: #fdf7f7;
+    --main-dark: #333;
+    --main-mid: #a9a9a9;
+
+    /* Hovers */
+    --primary-hover: #7DE7CF;
+
+    /* Borders */
+    --standard-border: 2px;
+
+    /* Transitions */
+    --standard-transition: .2s ease-in-out;
+    --fast-transition: .05s ease-in-out;
+}
+
+
+
+
+/*==================== Scroll top button ====================*/
+
+#scroll-top {
+    width: 5%;
+    min-width: 3rem;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 0.5rem;
+    z-index: 10;
+    border-radius: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: var(--fast-transition);
+}
+
+#scroll-top:hover {
+    cursor: pointer;
+    transition: var(--fast-transition);
+}
+
+#scroll-top:active {
+    background-color: var(--main-tertiary);
+    transition: var(--fast-transition);
+}
+
+.mobile-show {
+    display: none;
+
+    @media (max-width: 995px) {
+        display: block;
+    }
+}
+
+.mobile-hide {
+    display: block;
+}
+
+/*==================== Nav list ====================*/
+
+.nav-link-item {
+    padding: 0rem 3rem;
+}
+
+.nav-link-custom {
+    padding: 1rem 0rem;
+}
+
+#mobile-brand {
+    display: none;
+}
+
+
+.mobile-logo {
+    display: none;
+}
+
+
+
+
+
+
+
+#showcase-banner {
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+/* ==================== Horizontal rules ====================*/
+
+
+
+.social-link {
+    transition: var(--standard-transition);
+}
+
+
+
+.socials {
+    font-size: 3rem;
+    width: 20%;
+
+}
+
+
+/* ====================== card content ====================== */
+.card-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+.photo-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-image {
+    max-width: 20rem;
+}
+
+.intro-text {
+    font-size: 1.7rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
+}
+
+/* Meet the team */
+
+
+
+
+/* Lessons */
+/* middle cards */
+.lesson-card-shell {
+    transition: ease-in-out 150ms;
+}
+
+.lesson-card-shell:hover {
+    transition: ease-in-out 150ms;
+    transform: scale(1.05);
+}
+
+.lesson-card-shell a:hover {
+    text-decoration: none;
+
+}
+
+.lesson-card-shell a:visited {
+    text-decoration: none;
+}
+
+.lesson-card-shell:nth-child(4n+2),
+.lesson-card-shell:nth-child(4n+3) {
+    padding: 0rem;
+    padding: 0rem 1rem;
+
+}
+
+/* outer cards */
+.lesson-card-shell:nth-child(4n+1) {
+    padding: 0rem;
+    padding-right: 1rem;
+}
+
+.lesson-card-shell:nth-child(4n+4) {
+    padding: 0rem;
+    padding-left: 1rem;
+}
+
+.lesson-card {
+    background-repeat: no-repeat;
+}
+
+.lesson-card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+/* Skatepark section */
+#triple-img {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Reviews */
+#reviews {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Safety */
+#safety-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#safety-img img {
+    min-width: 20rem;
+
+
+}
+
+
+/* Contact */
+#socials {
+    width: 40%;
+}
+
+/* Join */
+#join-img {}
+
+/* gallery */
+
+#gallery-card-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery-card {
+    margin: 1rem 0rem;
+    width: 17%;
+}
+
+.gallery-video {
+    width: 100%;
+    height: 100%;
+}
+
+
+#contact-email {
+    color: var(--main-primary);
+}
+
+
+
+.book-btn {
+    font-size: 1.5rem;
+}
+
+.book-btn:hover {
+    color: var(--main-primary);
+}
+
+
+/* Triple image containers */
+.triple-img {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Card titles */
+.card-title-custom {
+    font-weight: lighter;
+    font-size: 3rem;
+}

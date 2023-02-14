@@ -1,0 +1,55 @@
+/* Import variables */
+@import '../../../assets/css/variables.css';
+@import '../../../assets/css/variables.css';
+@import '../../../assets/css/utility.css';
+
+
+.lesson-card-shell {
+    transition: ease-in-out 150ms;
+}
+
+.lesson-card-shell:hover {
+    transition: ease-in-out 150ms;
+    transform: scale(1.02);
+}
+
+.lesson-card-shell a {
+    text-decoration: none;
+}
+
+.lesson-card-shell a:hover {
+    text-decoration: none;
+}
+
+.lesson-card-title {
+    height: 3rem;
+    overflow: hidden;
+}
+
+.lesson-card-title::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 1030px) {
+
+    .lesson-card-shell {
+        padding: 0rem !important;
+        width: 45%;
+        margin: 0rem auto 0rem auto
+    }
+
+    #lesson-group-card-holder {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1rem;
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .lesson-card-shell {
+        padding: 0rem !important;
+        width: 100%;
+    }
+}

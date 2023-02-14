@@ -130,7 +130,10 @@ const LoginSignUp = props => {
 
 
     // redirect
-    let { from } = location.state
+    let from;
+    if (location.state != undefined) {
+        from = location.state.from
+    }
 
 
     // Navigation
@@ -268,7 +271,10 @@ const LoginSignUp = props => {
                         console.log(data.isAdmin, data.isSuperAdmin)
                         navigate("/")
                     }
-                    navigate(from)
+                    if (from != undefined) {
+                        navigate(from)
+                    }
+
                 });
             // Add page redirect here
         } else if (props.type === 'changePassword') {

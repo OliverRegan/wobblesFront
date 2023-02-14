@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.de801bd8.css",
-    "main.js": "/static/js/main.4389fab4.js",
+    "main.js": "/static/js/main.6d3c6fb3.js",
     "static/js/787.4f3bf5db.chunk.js": "/static/js/787.4f3bf5db.chunk.js",
     "static/media/Learn-How-To-Roller-Skate.jpg": "/static/media/Learn-How-To-Roller-Skate.c810071152353a48b38e.jpg",
     "static/media/Learn_To_Roller_Skate_Brisbane.png": "/static/media/Learn_To_Roller_Skate_Brisbane.f615e43ee80004359424.png",
@@ -15,11 +15,11 @@
     "static/media/Beginner-Court-Lesson.jpg": "/static/media/Beginner-Court-Lesson.ffee55868798aaebf82c.jpg",
     "index.html": "/index.html",
     "main.de801bd8.css.map": "/static/css/main.de801bd8.css.map",
-    "main.4389fab4.js.map": "/static/js/main.4389fab4.js.map",
+    "main.6d3c6fb3.js.map": "/static/js/main.6d3c6fb3.js.map",
     "787.4f3bf5db.chunk.js.map": "/static/js/787.4f3bf5db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de801bd8.css",
-    "static/js/main.4389fab4.js"
+    "static/js/main.6d3c6fb3.js"
   ]
 }

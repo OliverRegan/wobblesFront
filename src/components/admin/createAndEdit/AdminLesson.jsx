@@ -42,9 +42,9 @@ const AdminLesson = () => {
     const [coaches, setCoaches] = useState([]);
     const [error, setError] = useState('')
 
-    let coachURL = "http://112.213.35.198:3001/coaches";
+    let coachURL = "http://localhost:3001/coaches";
 
-    let lessonURL = "http://112.213.35.198:3001/lessons";
+    let lessonURL = "http://localhost:3001/lessons";
 
 
     const [msg, setMsg] = useState('')
@@ -160,7 +160,7 @@ const AdminLesson = () => {
             for (let key in formik.values) {
                 formData.append(key, formik.values[key]);
             }
-            fetch('http://112.213.35.198:3001/lessons/save', {
+            fetch('http://localhost:3001/lessons/save', {
                 method: 'POST',
                 headers: headers,
                 body: formData
@@ -227,7 +227,7 @@ const AdminLesson = () => {
             "lessonId": objDelete
         }
         console.log(delBody)
-        fetch('http://112.213.35.198:3001/lessons/delete', {
+        fetch('http://localhost:3001/lessons/delete', {
             method: 'POST',
             headers: {
                 "Authorization": token,
@@ -725,7 +725,7 @@ const AdminLesson = () => {
                                                             fileDataURL || formik.values.lessonPicture != '' ?
                                                                 <p className="img-preview-wrapper">
                                                                     {
-                                                                        <img className="border img-fluid" src={fileDataURL ? fileDataURL : "http://112.213.35.198:3001/images/uploads/lessons/" + formik.values.lessonPictureName} width="400" height="600" alt="preview" />
+                                                                        <img className="border img-fluid" src={fileDataURL ? fileDataURL : "http://localhost:3001/images/uploads/lessons/" + formik.values.lessonPictureName} width="400" height="600" alt="preview" />
                                                                     }
                                                                 </p>
                                                                 :

@@ -51,7 +51,7 @@ const Reviews = props => {
     headers.append('Content-Type', 'application/json')
 
     function getReviews() {
-        fetch("http://112.213.35.198:3001/reviews", {
+        fetch("http://localhost:3001/reviews", {
             method: 'GET',
             headers: headers
         })
@@ -88,7 +88,7 @@ const Reviews = props => {
             reviewId: del.reviewId,
         }
 
-        fetch("http://112.213.35.198:3001/reviews/delete", {
+        fetch("http://localhost:3001/reviews/delete", {
             method: 'POST',
             headers: headers,
             body: JSON.stringify(body)
@@ -153,7 +153,7 @@ const Reviews = props => {
 
         // Send review data
         // ADD AUTHENTICATION
-        fetch("http://112.213.35.198:3001/reviews", {
+        fetch("http://localhost:3001/reviews", {
             method: 'POST',
             headers: headers,
             body: JSON.stringify(body)

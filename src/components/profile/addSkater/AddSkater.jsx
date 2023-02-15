@@ -23,7 +23,7 @@ async function createUpdateSkater(data, token, isEdit) {
         }
 
         console.log(body)
-        return fetch("http://112.213.35.198:3001/users/profile/updateSkater", {
+        return fetch("http://127.0.0.1:3001/users/profile/updateSkater", {
             method: "POST",
             headers: {
                 'Authorization': token,
@@ -42,7 +42,7 @@ async function createUpdateSkater(data, token, isEdit) {
             "dob": data.dob
         }
 
-        return fetch("http://112.213.35.198:3001/users/profile/addSkater", {
+        return fetch("http://127.0.0.1:3001/users/profile/addSkater", {
             method: "POST",
             headers: {
                 'Authorization': token,

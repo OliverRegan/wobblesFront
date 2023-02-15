@@ -41,7 +41,7 @@ const AdminGallery = () => {
     const [gallery, setGallery] = useState([]);
     const [error, setError] = useState('')
 
-    let galleryURL = "http://112.213.35.198:3001/gallery";
+    let galleryURL = "http://localhost:3001/gallery";
 
 
 
@@ -130,7 +130,7 @@ const AdminGallery = () => {
             for (let key in formik.values) {
                 formData.append(key, formik.values[key]);
             }
-            fetch('http://112.213.35.198:3001/gallery/save', {
+            fetch('http://localhost:3001/gallery/save', {
                 method: 'POST',
                 headers: headers,
                 body: formData
@@ -187,7 +187,7 @@ const AdminGallery = () => {
             "galleryId": objDelete
         }
         console.log(delBody)
-        fetch('http://112.213.35.198:3001/gallery/delete', {
+        fetch('http://localhost:3001/gallery/delete', {
             method: 'POST',
             headers: {
                 "Authorization": token,
@@ -448,7 +448,7 @@ const AdminGallery = () => {
                                                                 </Card>
                                                                 // <p className="img-preview-wrapper">
                                                                 //     {
-                                                                //         <img className="border img-fluid" src={fileDataURL ? fileDataURL : "http://112.213.35.198:3001/images/uploads/gallery/" + formik.values.galleryPictureName} width="400" height="600" alt="preview" />
+                                                                //         <img className="border img-fluid" src={fileDataURL ? fileDataURL : "http://localhost:3001/images/uploads/gallery/" + formik.values.galleryPictureName} width="400" height="600" alt="preview" />
                                                                 //     }
                                                                 // </p>
                                                                 :

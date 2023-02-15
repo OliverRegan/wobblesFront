@@ -41,7 +41,7 @@ const AdminUpdates = () => {
     const [updates, setUpdates] = useState([]);
     const [err, setErr] = useState('')
 
-    let updateURL = "http://112.213.35.198:3001/updates";
+    let updateURL = "http://localhost:3001/updates";
 
     const [msg, setMsg] = useState('')
     const [file, setFile] = useState(null);
@@ -131,7 +131,7 @@ const AdminUpdates = () => {
             for (let key in formik.values) {
                 formData.append(key, formik.values[key]);
             }
-            fetch('http://112.213.35.198:3001/updates/save', {
+            fetch('http://localhost:3001/updates/save', {
                 method: 'POST',
                 headers: headers,
                 body: formData
@@ -189,7 +189,7 @@ const AdminUpdates = () => {
         let delBody = {
             "updateId": objDelete
         }
-        fetch('http://112.213.35.198:3001/updates/delete', {
+        fetch('http://localhost:3001/updates/delete', {
             method: 'POST',
             headers: {
                 "Authorization": token,
@@ -439,7 +439,7 @@ const AdminUpdates = () => {
                                                             fileDataURL || formik.values.updatePicture != '' ?
                                                                 <p className="img-preview-wrapper">
                                                                     {
-                                                                        <img className="border img-fluid" src={fileDataURL ? fileDataURL : "http://112.213.35.198:3001/images/uploads/updates/" + formik.values.updatePictureName} width="400" height="600" alt="preview" />
+                                                                        <img className="border img-fluid" src={fileDataURL ? fileDataURL : "http://localhost:3001/images/uploads/updates/" + formik.values.updatePictureName} width="400" height="600" alt="preview" />
                                                                     }
                                                                 </p>
                                                                 :

@@ -23,7 +23,7 @@ async function signUp(data) {
         "password": data.password
     }
 
-    return fetch("http://127.0.0.1:3001/users/signup", {
+    return fetch("http://112.213.35.198:3001/users/signup", {
         method: "POST",
         headers: {
             'Accept': 'application/json',
@@ -41,7 +41,7 @@ async function logIn(data) {
         "password": data.password
     }
 
-    return fetch("http://127.0.0.1:3001/users/login", {
+    return fetch("http://112.213.35.198:3001/users/login", {
         method: "POST",
         headers: {
             'Accept': 'application/json',
@@ -58,7 +58,7 @@ async function changePassword(data) {
         "email": data.email
     }
 
-    return fetch("http://127.0.0.1:3001/users/changePassword", {
+    return fetch("http://112.213.35.198:3001/users/changePassword", {
         method: "POST",
         headers: {
             'Accept': 'application/json',
@@ -76,7 +76,7 @@ async function changePasswordCheck(data) {
         "code": data.code
     }
 
-    return fetch("http://127.0.0.1:3001/users/changePassword/code", {
+    return fetch("http://112.213.35.198:3001/users/changePassword/code", {
         method: "POST",
         headers: {
             'Accept': 'application/json',
@@ -94,7 +94,7 @@ async function changePasswordFinal(data) {
         'details': data.details
     }
 
-    return fetch("http://127.0.0.1:3001/users/changePassword/change", {
+    return fetch("http://112.213.35.198:3001/users/changePassword/change", {
         method: "POST",
         headers: {
             'Accept': 'application/json',

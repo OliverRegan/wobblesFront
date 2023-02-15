@@ -29,7 +29,7 @@ const Updates = props => {
         headers.append('Accept', 'application/json')
         headers.append('Content-Type', 'application/json')
 
-        fetch("http://localhost:3001/updates", {
+        fetch("http://112.213.35.198:3001/updates", {
             method: 'GET',
             headers: headers
         })

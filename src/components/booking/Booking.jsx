@@ -59,7 +59,7 @@ const Booking = props => {
 
         // Get lesson data
         function getData() {
-            fetch(("http://127.0.0.1:3001/lessons/" + id), {
+            fetch(("http://112.213.35.198:3001/lessons/" + id), {
                 method: 'GET',
                 headers: headers
             })
@@ -142,7 +142,7 @@ const Booking = props => {
             "date": bookingDate.current.value
         }
 
-        fetch("http://127.0.0.1:3001/bookings/" + id, {
+        fetch("http://112.213.35.198:3001/bookings/" + id, {
             method: 'POST',
             headers: headers,
             body: JSON.stringify(body)

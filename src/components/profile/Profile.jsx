@@ -89,7 +89,7 @@ const Profile = props => {
         console.log(headers.keys)
 
         // Send data to server
-        fetch(("http://localhost:3001/users/profile/deleteSkater"), {
+        fetch(("http://112.213.35.198:3001/users/profile/deleteSkater"), {
             method: "POST",
             headers: headers,
             body: JSON.stringify(skater)
@@ -106,7 +106,7 @@ const Profile = props => {
 
     function fetchUserData() {
         // Fetch data
-        fetch(("http://localhost:3001/users/profile"), {
+        fetch(("http://112.213.35.198:3001/users/profile"), {
             method: 'GET',
             headers: headers
         })
@@ -136,7 +136,7 @@ const Profile = props => {
             data: data
         }
 
-        fetch('http://localhost:3001/users/profile/update', {
+        fetch('http://112.213.35.198:3001/users/profile/update', {
             method: 'POST',
             headers: headers,
             body: JSON.stringify(body)
